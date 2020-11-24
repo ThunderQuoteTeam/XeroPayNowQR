@@ -48,7 +48,7 @@ npm run build
 The project will be deployed to `/dist`. 
 
 #### Deployment:
-1. Copy and upload the contents of the `dist` folder to your webserver (e.g. `https://www.example.com/paynow/`).
+1. Copy and upload the contents of the `dist` folder to your webserver (e.g. `https://www.example.com/paynow/`). You can also use [Github Pages](https://pages.github.com/)for hosting if you fork this repository. Simply copy the contents of the dist folder to a new `/docs` folder and enable GitHub pages hosting for the working branch. 
 
 2. Visit [Payment Services](https://go.xero.com/Settings/PaymentGateways/) under the Xero organisation settings.
 
@@ -66,4 +66,9 @@ The project will be deployed to `/dist`.
 ## Screenshots:
 
 ![Sample Application Screenshot](https://raw.githubusercontent.com/ThunderQuoteTeam/XeroPayNowQR/main/screenshots/example.jpg "Sample Application Screenshot")
+
+## Credits
+Developed by ThunderQuote (https://www.thunderquote.com). See the [original PayNowQR repository](https://github.com/ThunderQuoteTeam/PaynowQR) for additional credits
+
+Feel free to fork this repository for your own use and report any issues.
 
