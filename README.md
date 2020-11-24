@@ -62,3 +62,8 @@ The project will be deployed to `/dist`.
 6. Under <u>Pay now text</u>, fill in the payment button text (e.g. `Pay with PayNowQR`)
 
 7. Click Save. Scroll up, click manage themes and add the new payment method you created to your branding themes (under credit card).
+
+## Screenshots:
+
+![Sample Application Screenshot](https://raw.githubusercontent.com/ThunderQuoteTeam/XeroPayNowQR/main/screenshots/example.jpg "Sample Application Screenshot")
+
