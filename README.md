@@ -1,7 +1,7 @@
 # Xero PayNow
 Quick setup for custom Xero Payment integration using Bootstrap 4, Vue.js and [PaynowQR](https://github.com/ThunderQuoteTeam/PaynowQR) libraries. Generates a simple webpage which automatically generates the PayNow SGQR (Singapore) for easy payment of invoices.
 
-**Does not perform auto recouncilation**. Auto reconcillation requires the local Singaporean banks to open up their payment notification APIs (e.g. DBS RAPID) to you, on top of a proper backend server to check for the payment status.
+**Does not perform auto reconcilation**. Auto reconcillation requires the local Singaporean banks to open up their payment notification APIs (e.g. DBS RAPID) to you, on top of a proper backend server to check for the payment status.
 
 **Cannot be used with other Credit Card payment methods (other than PayPal) in Xero**. Xero currently only allows either credit card payment (e.g. Stripe) or a single Custom Payment method. See this [feature request](https://community.xero.com/business/discussion/3145941) on Xero Business Community.
 
@@ -54,12 +54,12 @@ The project will be deployed to `/dist`.
 
 3. Look for a section called **Other Payment Services**. Click **Add Other** and select **Custom Payment URL**.
 
-4. Under <u>Name</u>, fill in the name of the payment method (e.g. `PayNow QR`)
+4. Under <ins>Name</ins>, fill in the name of the payment method (e.g. `PayNow QR`)
 
-5. Under <u>Your custom url</u>, fill in the url where you uploaded the application. Also include the query strings
+5. Under <ins>Your custom url</ins>, fill in the url where you uploaded the application. Also include the query strings
 (e.g. `https://www.example.com/paynow/?invoiceNo=[INVOICENUMBER]&currency=[CURRENCY]&amount=[AMOUNTDUE]&shortCode=[SHORTCODE]`)
 
-6. Under <u>Pay now text</u>, fill in the payment button text (e.g. `Pay with PayNowQR`)
+6. Under <ins>Pay now text</ins>, fill in the payment button text (e.g. `Pay with PayNowQR`)
 
 7. Click Save. Scroll up, click manage themes and add the new payment method you created to your branding themes (under credit card).
 
