@@ -68,7 +68,9 @@ The project will be deployed to `/dist`.
 ![Sample Application Screenshot](https://raw.githubusercontent.com/ThunderQuoteTeam/XeroPayNowQR/main/screenshots/example.jpg "Sample Application Screenshot")
 
 ## Credits
-Developed by ThunderQuote (https://www.thunderquote.com). See the [original PayNowQR repository](https://github.com/ThunderQuoteTeam/PaynowQR) for additional credits
+Developed by ThunderQuote (https://www.thunderquote.com). 
+
+See the [original PayNowQR repository](https://github.com/ThunderQuoteTeam/PaynowQR) for additional credits.
 
 Feel free to fork this repository for your own use and report any issues.
 
