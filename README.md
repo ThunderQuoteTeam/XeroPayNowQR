@@ -48,7 +48,7 @@ npm run build
 The project will be deployed to `/dist`. 
 
 #### Deployment:
-1. Copy and upload the contents of the `dist` folder to your webserver (e.g. `https://www.example.com/paynow/`). You can also use [Github Pages](https://pages.github.com/)for hosting if you fork this repository. Simply copy the contents of the dist folder to a new `/docs` folder and enable GitHub pages hosting for the working branch. 
+1. Copy and upload the contents of the `dist` folder to your webserver (e.g. `https://www.example.com/paynow/`). You can also use [Github Pages](https://pages.github.com/) for hosting if you fork this repository. Simply copy the contents of the dist folder to a new `/docs` folder and enable GitHub pages hosting for the working branch. 
 
 2. Visit [Payment Services](https://go.xero.com/Settings/PaymentGateways/) under the Xero organisation settings.
 
