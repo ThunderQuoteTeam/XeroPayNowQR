@@ -74,3 +74,8 @@ See the [original PayNowQR repository](https://github.com/ThunderQuoteTeam/Payno
 
 Feel free to fork this repository for your own use and report any issues.
 
+## Need help for implementation?
+We offer a setup, hosting and maintenance service for this project and other PayNow QR integrations. 
+We can also extend Xero PayNowQR to work with bank payment realtime APIs, allowing realtime payment feedback.
+
+Interested? Contact us at hello@thunderquote.com. 
