@@ -1,7 +1,7 @@
 # Xero PayNow
 Quick setup for custom Xero Payment integration using Bootstrap 4, Vue.js and [PaynowQR](https://github.com/ThunderQuoteTeam/PaynowQR) libraries. Generates a simple webpage which automatically generates the PayNow SGQR (Singapore) for easy payment of invoices.
 
-**Does not perform auto reconcilation**. Auto reconcillation requires the local Singaporean banks to open up their payment notification APIs (e.g. DBS RAPID) to you, on top of a proper backend server to check for the payment status.
+**Does not perform automatic realtime payment feedback**. Auto realtime payment feedback requires the local Singaporean banks to open up their payment notification APIs (e.g. DBS RAPID) to you, on top of a proper backend server to check for the payment status. We can provide integration help – contact us if you're interested!
 
 **Cannot be used with other Credit Card payment methods (other than PayPal) in Xero**. Xero currently only allows either credit card payment (e.g. Stripe) or a single Custom Payment method. See this [feature request](https://community.xero.com/business/discussion/3145941) on Xero Business Community.
 
