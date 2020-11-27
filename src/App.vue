@@ -50,7 +50,7 @@ export default {
 
       let qrcode = new PaynowQR({
           uen,
-          amount,
+          amount:amount.replace(/,|\s/g,''),
           refNumber,
           company
         });
